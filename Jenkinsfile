@@ -7,17 +7,6 @@ pipeline {
                 sh 'echo build'
             }
         }
-        stage('Test') {
-            steps {
-                // Run the tests
-                sh 'echo test'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                // Deploy the application
-                sh 'echo deploy'
-            }
-        }
+   
     }
 }
